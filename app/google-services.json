@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "297999190953",
+    "firebase_url": "https://mondoctor-e0a88.firebaseio.com",
+    "project_id": "mondoctor-e0a88",
+    "storage_bucket": "mondoctor-e0a88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297999190953:android:3b2e2357737fd396",
+        "android_client_info": {
+          "package_name": "com.example.user.mondoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297999190953-1o2upgq6d761l561v4lhet9fd1d8sbn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFgjW0KA6Qlwic47wfcXKdN1m6R6151dw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

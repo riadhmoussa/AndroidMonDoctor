@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.mondoctor.Registration">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/LLogin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whitebackground"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:paddingTop="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/backgroundwhite"
+                    android:orientation="vertical"
+                    android:padding="15pt"
+                    android:touchscreenBlocksFocus="false">
+
+                    <EditText
+                        android:id="@+id/EDNom"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_background"
+                        android:ems="10"
+                        android:hint="Nom"
+                        android:inputType="text"
+                        android:maxLength="15"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="9dp"
+                        android:textColor="#ff1a102c"
+                        android:textSize="20dp">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EDPrenom"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_background"
+                        android:ems="10"
+                        android:hint="Prénom"
+                        android:inputType="text"
+                        android:maxLength="15"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="9dp"
+                        android:textColor="#ff1a102c"
+                        android:textSize="20dp">
+
+                    </EditText>
+
+                    <DatePicker
+                        android:layout_width="295dp"
+                        android:layout_height="47dp"
+                        android:layout_weight="1" />
+
+                    <EditText
+                        android:id="@+id/EDAdresse"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_background"
+                        android:ems="10"
+                        android:hint="Adresse"
+                        android:inputType="text"
+                        android:maxLength="15"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="9dp"
+                        android:textColor="#ff1a102c"
+                        android:textSize="20dp">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EDPhoneNumber"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_background"
+                        android:ems="10"
+                        android:hint="Téléphone "
+                        android:inputType="number"
+                        android:maxLength="15"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="9dp"
+                        android:textColor="#ff1a102c"
+                        android:textSize="20dp">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EDEmail"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_background"
+                        android:ems="10"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="15"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="9dp"
+                        android:textColor="#ff1a102c"
+                        android:textSize="20dp">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EDpassword"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_background"
+                        android:ems="10"
+                        android:hint="Password"
+                        android:inputType="numberPassword"
+                        android:maxLength="15"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="9dp"
+                        android:textColor="#ff1a102c"
+                        android:textSize="20dp">
+
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/ImageClient"
+                        android:layout_width="match_parent"
+                        android:layout_height="75pt"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/btn_star" />
+
+                    <Button
+
+                        android:id="@+id/buNext"
+                        android:layout_width="match_parent"
+                        android:layout_height="25pt"
+                        android:layout_margin="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/green_button"
+                        android:onClick="Register"
+                        android:text="Registration"
+                        android:textColor="#ff06071c"
+                        tools:ignore="OnClick" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/backgroundwhite" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
